@@ -35,7 +35,7 @@
 }
 
 .content h1 span {
-    color: red;
+    color:#070707;
 }
 
 input {
@@ -112,3 +112,4 @@ button {
 .social-icons a img:hover {
     transform: scale(1.1);
 }
+
