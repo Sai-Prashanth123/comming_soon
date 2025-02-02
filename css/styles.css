@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    width: 250px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.content {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #070707;
+}
+
+.content h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.content h1 span {
+    color: red;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #2a08ef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.launch-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.launch-time div {
+    flex-basis: 100px;
+    text-align: center;
+}
+
+.launch-time p {
+    background: #082eec;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 50px;
+}
+
+.launch-time span {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #6a6767;
+    font-weight: bold;
+}
+
+.social-icons {
+    position: absolute;
+    width: 400px;
+    top: 40px;
+    right: -40px;
+}
+
+.rocket {
+    width: 2000px;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: -30%;
+    bottom: -25%;
+    opacity: 0.8;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-icons a img {
+    width: 35px;
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
