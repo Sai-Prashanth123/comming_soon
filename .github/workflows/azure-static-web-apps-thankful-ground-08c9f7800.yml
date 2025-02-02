@@ -27,9 +27,9 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
-          app_location: "/" # Root of the static web app
+          app_location: "/" # Root directory of your static web app (change if it's in a subfolder)
           api_location: "" # No API in this case
-          output_location: "/" # Static app content is in the root directory
+          output_location: "/" # Static app content is in the root directory (adjust if necessary)
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
